@@ -51,7 +51,7 @@
 }
 
 .header .header_menu ul li:hover {
-  background-color: deepskyblue;
+  background-color: red;
 }
 
 .header .header_menu ul li a {
@@ -86,5 +86,23 @@
 
 .body .body_texto p {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 765px) {
+  .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .body .body_texto {
+    background-color: greenyellow;
+  }
+  .body .body_texto p {
+    color: red;
+  }
 }
 /*# sourceMappingURL=index.css.map */
