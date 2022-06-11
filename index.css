@@ -69,7 +69,7 @@
   margin: 20px;
 }
 
-.body .body_texto {
+.body-normal .body_texto {
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,13 +84,13 @@
   height: 100px;
 }
 
-.body .body_texto p {
+.body-normal .body_texto p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 765px) {
-  .body {
+  .body-normal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -98,10 +98,10 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .body .body_texto {
+  .body-normal .body_texto {
     background-color: greenyellow;
   }
-  .body .body_texto p {
+  .body-normal .body_texto p {
     color: red;
   }
 }
